@@ -19,7 +19,7 @@ class Game
     const STATE_IN_PLAY = 1;
     const STATE_TIE = 2;
     const STATE_WON = 3;
-    const DIMENSION = 3;
+    const DIMENSION = 9;
 
     public function start()
     {
