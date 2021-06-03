@@ -1,0 +1,14 @@
+<div class="controls">
+    <table>
+        {% for i in 0..(dimension - 1) %}
+            <tr>
+
+                {% for j in 0..(dimension - 1) %}
+                    <td><a href="{{ path('play', { 'row': i, 'col': j }) }}">*</a></td>
+                {% endfor %}
+
+            </tr>
+        {% endfor %}
+
+    </table>
+</div>
